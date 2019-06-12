@@ -1,0 +1,14 @@
+%%HP: T(0)A(R)F(.);
+´ VARS 1
+  ´ DUP 1 DISP DUP
+"2" çTAG
+    IFERR RCL OVER
+RCL SAME
+    THEN 2
+    END DUP 2 DISP
+    IF DUP 1 SAME
+    THEN DROP2
+    ELSE çTAG
+    END
+  ª DOLIST
+ª

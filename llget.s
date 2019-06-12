@@ -1,0 +1,29 @@
+%%HP: T(0)A(R)F(.);
+C$ 285 %This file is licensed
+%under GPL v2
+
+%LLGET.S
+%D1=DEBUT D'UNE LL.
+%çC POONTE Ca Ëme
+%"CHAŒNE" DE CETTE LL.
+
+%MODIF:Aa,Ca,D1,1+0RSTK.
+%APPEL:GOSUB
+*D1çLLCaGET
+A=C A
+C=C+C A
+C=C+C A
+A=A+C A
+CD1EX
+C=C+A A
+D1=C
+A=DAT1 A
+?A=0 A
+GOYES LLGETNOOBJ
+C=C+A A
+%CQFF
+D1=C
+RTNCC
+*LLGETNOOBJ
+RTNSC
+@
