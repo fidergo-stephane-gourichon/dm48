@@ -1,0 +1,15 @@
+%%HP: T(0)A(R)F(.);
+´ ç MOTIF
+  ´ 1
+    ´ DUP RCL MOTIF
+      IFERR POS
+      THEN 12345
+DOERR
+      END
+      IF DUP 0 ã
+      THEN çTAG
+      ELSE DROP2
+      END
+    ª DOLIST
+  ª
+ª

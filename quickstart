@@ -1,0 +1,29 @@
+%%HP: T(0)A(R)F(.);
+"To compile DM48 I use
+HP ASM v1.0 by J.Y.Avenard
+
+As an editor I use
+Stringwriter 4.4 by J.Y.Avenard
+
+Additional tools :
+the DEV library
+by Gouri & HPreg
+from DEV v3.10ß by
+Etienne de Foras
+
+the CRC checking
+library that helps
+avoiding file
+corruption, by your
+humble servant
+
+To compile DM48,
+launch COMP.
+You need about 34kb
+of available memory
+and about 50 seconds
+to compile the game.
+
+-- Stéphane Gourichon
+gouri@free.fr
+"
