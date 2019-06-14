@@ -10,7 +10,7 @@ Full game description and files to download to a HP48 are available on http://am
 
 * The HP-48 is not a unix-ish platform (where you typically edit text files, use compilers that run programs in their own confined memory area).
   * On the HP-48, programs and data are stored, and handled in binary form in a common memory area that remains through time.  No memory protection mechanism, a corrupted object can crash the whole system (external memory cards have a hardware write protection switch, still).
-  * Only proper strings are stored with their ASCII content (in standard-conformant ISO-8859-1 charset, not any platform-specific codepage or whatever).
+  * Only proper strings are stored with their ASCII content (standard-conformant ISO-8859-1 where the unused part of the standard is filled with mathematical symbols and greek letters [ref](https://www.drehersoft.com/mapping-hp48-text-to-unicode/)).
 * Data types intended for user consumptions do have a string representation, which is used for editing: system converts before, user edits text, system converts back after editing.
   * Some types visible by user are not editable, for example libraries, "Code" (opaque binary executable).
   * Fun fact, the type system allows a few parameterized types, including the "Array" type.  User can edit 1 and 2-dimensional matrices of real numbers like `[ [ 4 2 ] [ 7 0 ] ]`.  Arrays of other types can be valid objects, used in "External" but the system only shows to the user e.g. "Array of String", making them not editable.
